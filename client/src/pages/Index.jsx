@@ -20,11 +20,11 @@ const Index = () => {
     return (
       <div className="flex justify-center items-center min-h-screen">
         <motion.div 
-          className="relative"
+          className="relative text-white"
           animate={{ rotate: 360 }}
           transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
         >
-          <div className="w-16 h-16 border-4 border-primary/30 border-t-primary rounded-full glow-primary"></div>
+          <div className="w-16 h-16 border-4 border-primary/30 border-t-primary rounded-full glow-primary text-white"></div>
           <Film className="w-6 h-6 text-primary absolute inset-0 m-auto" />
         </motion.div>
       </div>

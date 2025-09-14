@@ -46,7 +46,7 @@ const MovieCard = ({ movie }) => {
         {/* Movie Info */}
         <CardContent className="p-4">
           <Link to={`/movies/${movie._id}`}>
-            <h3 className="text-lg font-semibold mb-2 text-foreground group-hover:text-primary transition-colors line-clamp-1">
+            <h3 className="text-lg font-semibold mb-2 text-foreground hover:text-blue-500 transition-colors line-clamp-1">
               {movie.title}
             </h3>
           </Link>

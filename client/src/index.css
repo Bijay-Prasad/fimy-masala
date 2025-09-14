@@ -72,7 +72,7 @@ button:focus-visible {
   }
 } */
 
-@theme inline {
+/* @theme inline {
 
   --radius-sm: calc(var(--radius) - 4px);
 
@@ -284,4 +284,4 @@ button:focus-visible {
   body {
     @apply bg-background text-foreground;
   }
-}
+} */

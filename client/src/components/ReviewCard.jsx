@@ -33,7 +33,7 @@ const ReviewCard = ({ review }) => {
       transition={{ duration: 0.5 }}
       whileHover={{ y: -2 }}
     >
-      <Card className="cinema-card p-6 mb-4">
+      <Card className="cinema-card p-6 mb-4 bg-zinc-700">
         <CardContent className="p-0">
           {/* Header */}
           <div className="flex items-center justify-between mb-4">

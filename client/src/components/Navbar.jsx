@@ -108,7 +108,7 @@ const Navbar = () => {
               >
                 <Link 
                   to={item.to}
-                  className="flex items-center space-x-2 text-foreground/80 hover:text-foreground transition-colors group"
+                  className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors group"
                 >
                   <item.icon className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   <span className="font-medium">{item.label}</span>
@@ -128,7 +128,7 @@ const Navbar = () => {
               <div className="flex items-center space-x-3">
                 <Link 
                   to="/profile"
-                  className="flex items-center space-x-2 text-foreground/80 hover:text-foreground transition-colors"
+                  className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors"
                 >
                   <User className="w-4 h-4" />
                   <span className="hidden sm:inline font-medium">
