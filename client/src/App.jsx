@@ -13,8 +13,16 @@ import ProtectedRoute from './components/ProtectedRoute';
 import UserProfile from './pages/UserProfile';
 import Index from './pages/Index';
 import NotFound from './pages/NotFound';
+import { useEffect } from 'react';
+import axios from 'axios';
 
 function App() {
+  useEffect(() => {
+    // Wake up backend
+    axios.get(import.meta.env.VITE_API_URL || 'http://localhost:5000')
+      .catch(() => { }); // Ignore errors
+  }, []);
+
   return (
     <Provider store={store}>
       <Router>
