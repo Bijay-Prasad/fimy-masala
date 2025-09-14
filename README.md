@@ -25,6 +25,7 @@ A full-stack MERN application for movie reviews, ratings, and social features. U
 - Redux Toolkit for state management
 - React Router for navigation
 - Tailwind CSS for styling
+- Motion for smooth animations
 - Lucide React for icons
 
 ## Quick Start
